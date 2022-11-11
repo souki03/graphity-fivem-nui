@@ -1,0 +1,81 @@
+form{
+    height: 730px;
+    width: 400px;
+    background-color: rgba(43, 43, 43, 0.87);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 42%;
+    left: 12%;
+    border-radius: 10px;
+    padding: 7px 6px;
+}
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+form *{    
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+select{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+option{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(38,38,39);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+::placeholder{
+    color: #e5e5e5;
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    position:relative;
+    left:32%;
+}
+    

@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="container">
+                <form>
+                    <label for="username">Texte</label>
+                    <input type="text" placeholder="Votre Texte" id="input">
+                    <label for="lang">Police</label>
+                    <select name="languages" id="input2">
+                      <option value="1">Next Custom</option>
+                      <option value="2">Dripping Marker</option>
+                      <option value="3">Docallisme</option>
+                      <option value="4">Fat Wandals</option>
+                      <option value="5">Sister Spray</option>
+                      <option value="6">Pricedown</option>
+                      <option value="7">Chalet</option>
+                      <option value="8">Sign Painter</option>
+                    </select>
+                    <label for="taille">Taille</label>
+                    <input type="range" name="rangeInput" min="1" max="29" onchange="updateTextInput(this.value);">
+                    <input type="text" id="input3" value="">
+                    <label for="password">Couleur</label>
+                    <input type="color" id="input4" name="your favourite color" list="">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+                    <button id="submit" type="submit">Confirmer</button>
+                </form>
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>
